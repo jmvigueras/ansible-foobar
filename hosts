@@ -1,0 +1,13 @@
+[fortigate]
+fortigate-1
+
+[fortigate:vars]
+ansible_host="35.181.55.55"
+ansible_network_os="fortinet.fortios.fortios"
+ansible_httpapi_use_ssl="yes"
+ansible_httpapi_validate_certs="no"
+ansible_httpapi_port="8443"
+vdom="root"
+fortios_access_token="ynAaedzBulRRHe6xxxxxx5u50rbUkM"
+fgt_ext_ip="172.24.0.74"
+mapped_ip="172.24.20.10"

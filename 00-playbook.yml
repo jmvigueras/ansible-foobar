@@ -1,0 +1,8 @@
+- name: Configure vips and policies
+  hosts: fortigate
+  connection: httpapi
+  collections:
+  - fortinet.fortios
+  roles:
+    - vips
+  gather_facts: no
